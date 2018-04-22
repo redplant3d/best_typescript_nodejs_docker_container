@@ -1,0 +1,11 @@
+{
+  "ext": "json hbs",
+  "delay": "500",
+  "watch": [
+    "dist"
+  ],
+  "exec": "node ./dist/server.js",
+  "ignore": [
+    "src/**/*.spec.ts"
+  ]
+}

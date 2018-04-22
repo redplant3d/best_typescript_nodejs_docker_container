@@ -1,0 +1,30 @@
+{
+  "name": "example-nestjs-service",
+  "version": "0.0.1",
+  "license": "MIT",
+  "scripts": {},
+  "author": {
+    "name": "Thomas Reufer",
+    "email": "thomas.reufer@redplant.de",
+    "url": "https://redplant.de"
+  },
+  "dependencies": {
+    "@types/body-parser": "^1.16.8",
+    "@types/compression": "^0.0.36",
+    "@types/express": "^4.11.1",
+    "@types/node": "^9.3.0",
+    "@nestjs/common": "^4.5.9",
+    "@nestjs/core": "^4.5.10",
+    "@nestjs/microservices": "^4.5.8",
+    "@nestjs/testing": "^4.5.5",
+    "@nestjs/websockets": "^4.5.8",
+    "body-parser": "^1.18.2",
+    "compression": "^1.7.2",
+    "interactive": "^0.1.9",
+    "reflect-metadata": "^0.1.12",
+    "rxjs": "^5.5.6"
+  },
+  "devDependencies": {
+    "nodemon": "^1.14.1"
+  }
+}
