@@ -1,6 +1,6 @@
 import { ExceptionFilter, Catch } from '@nestjs/common';
 
-const isProduction = process.env.NODE_ENV == 'docker_production';
+const isProduction = process.env.NODE_ENV == 'production';
 
 @Catch()
 export class AnyExceptionFilter implements ExceptionFilter {
