@@ -2,7 +2,7 @@
 A template for using Typescript with Nodejs within a Docker container. Can be used as dev environment and for production.
 
 ## The problem
-There is no native support for typescript in nodejs. Other libraries like ts-node help to run ts fast and easy. But this comes with some drawbacks like diffenernt operating systems on the host maschine and within a container.  
+There is no native support for typescript in nodejs. Other libraries like ts-node helps to run ts fast and easy. But this comes with some drawbacks like different operating systems on the host maschine and within a container.   
 
 ### What do i want?
 * Easy to setup
@@ -14,7 +14,7 @@ There is no native support for typescript in nodejs. Other libraries like ts-nod
 * Pure JavaScript in production mode
 
 ## The idea
-A docker-compose to define our different services. In this case i choose a example nest.js api scenario. It is intended to use multiple nodejs containers.
+A docker-compose file to define our services. In this case i choose a example nest.js api scenario. It is intended to use multiple nodejs containers.
 
 
 

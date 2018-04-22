@@ -9,7 +9,6 @@ services:
       - "${EXAMPLE_NESTJS_SERVICE_HTTP_PORT:-80}:3000"
     volumes:
       - './example-nestjs-service/src:/app/src'
-      - './example-nestjs-service/src/views:/app/dist/views'
     networks:
       - red_network
     dns:
