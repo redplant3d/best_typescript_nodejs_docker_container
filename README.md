@@ -35,7 +35,7 @@ The develoment dockerfile uses a volume to share the source code between the hos
 
 The production dockerfile simply copies the src directory into the image, compiles it via tsc and remove the src directory afterwards. The production container runs pure js.
 
-In both environemtns the entrypoint.sh is added and made exectuable. It is my entrypoint into the container. 
+In both environments the entrypoint.sh is added and made exectuable. It is my entrypoint into the container. 
 
 ### Entrypoint
 The entrypoint is started with the initial rednode command. If the environemt is set to development, the bash script starts multiple processes to watch the output of the tsc process, to detect compilation errors and to restart the nodejs process via nodemon.
