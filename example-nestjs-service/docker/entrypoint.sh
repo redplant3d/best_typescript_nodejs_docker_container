@@ -94,7 +94,7 @@ if [ "$1" = 'rednode' ]; then
                     # If the last compilation runs without an error
                     [[ "$hasError" = false ]] && {
 
-                        # Is it the first successfull compilation?
+                        # Is it the first successful compilation?
                         [[ "$firstSuccess" = true ]] && {
                             firstSuccess=false
 
